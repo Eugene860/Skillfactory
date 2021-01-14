@@ -4,40 +4,24 @@ box-sizing: border-box;
 }
 body {
     margin: 0;
-    padding: 0;
 }
-.headerbutton {
-    background: #E3B873;
-    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
-    border: 0;
-    border-radius: 2px;
-    color: white;
-    text-transform: uppercase;
-    padding: auto 0;
-    font-size: 11px;
-    width: 161px;
-    height: 37px;
-    font-family: "Nunito Sans";
-    font-style: italic;
-    line-height: 15px;
-        }
-header {
+.header {
+    background-color: #131313;
+    }
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1440px;
+    height: 83px;
+    margin: 0 auto; 
+    padding-left: 92px;
+    padding-right: 90px;
+    align-items: center;
     font-family: "Nunito Sans";
     font-style: normal;
     font-size: 11px;
     line-height: 15px;
-}
-.header {
-background-color: #131313;
-}
-.container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    max-width: 1256px;
-    height: 83px;
-    margin: 0 auto; 
-    align-items: center;
     }
 .header__logo {
     color: #E3B873;
@@ -46,7 +30,7 @@ background-color: #131313;
     font-size: 11px; 
     padding: 0;
 }
-   .header__menu {
+.header__menu {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -69,18 +53,41 @@ background-color: #131313;
 .phonelink {
     color: #E3B873;
 }
+.button {
+    text-transform: uppercase;
+    border-radius: 2px;
+    padding: auto 0;
+    font-size: 11px;
+    font-family: "Nunito Sans";
+    font-style: italic;
+    line-height: 15px;
+}
+.header-button {
+    background: #E3B873;
+    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+    border: 0;
+    color: white;
+    width: 161px;
+    height: 37px;
+}
 .main {
-    max-width: 1438px;
-    height: 707px;
+    padding: 0px;
+    margin: 0 auto;
+}
+.mainstep1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/image43.jpg);
-    margin: 0px;
+    background-size: auto contain;
+}
+.main-container {
+    max-width: 1440px;
+    height: 707px;
+    margin: 0px auto;
     padding-left: 134px;
     padding-top: 194px;
     padding-bottom: 0px;
     position: relative;
-
 }
-    .title {
+.title {
     padding: 0px 0px 19px 0px;
     margin: 0px;
     font-family: "Yeseva One";
@@ -108,32 +115,140 @@ h1 {
     font-style: italic;
     line-height: 36px;
 }
-.mainbutton1 {
+.main-button1 {
     background: #E3B873;
     box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
     border: 0;
-    border-radius: 2px;
     color: white;
-    text-transform: uppercase;
-    padding: auto 0;
-    font-size: 11px;
     width: 207px;
     height: 51px;
-    font-family: "Nunito Sans";
-    font-style: italic;
-    line-height: 15px;
 }
-.mainbutton2 {
+.main-button2 {
     color: white;
-    text-transform: uppercase;
     margin-left: 20px;
-    font-size: 11px;
     width: 207px;
     height: 51px;
     background-color: inherit;
     border: 1px solid #FFFFFF;
-    border-radius: 2px;
-    font-family: "Nunito Sans";
-    font-style: italic;
-    line-height: 15px;  
+}
+.step2 {
+    max-width: 1438px;
+    height: 1074px;
+    background-color: #131313;
+    padding-left: 134.55px;
+    padding-right: 134.55px;
+    padding-top: 107px;
+
+}
+.step2__nav {
+    display: flex;
+}
+.step2__menu {
+    display: flex;
+    padding-left: 458px;
+}
+.s2m__item {
+    list-style: none;
+    font-size: 14px;
+}
+.s2m__item + .s2m__item {
+    margin-left: 60.5px;
+}
+.s2m__link {
+    color: #E3B873;
+    font-size: 14px;
+    line-height: 19.4px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#border {
+    position: relative;
+}
+#border::after {
+    content: '';
+    background-image: url(../Images/Rectangle6.png);
+    position: absolute;
+}
+.maincontentstep2-leftblock {
+    position: relative;
+
+}
+.maincontentstep2-leftblock-completedprojects {
+    margin-top: 0px;
+    margin-bottom: 42px;
+}
+.maincontentstep2-leftblock-completedprojects__title {
+    text-transform: uppercase;
+    font-size: 27px;
+    color: #E3B873;
+    margin-bottom: 34px;
+    margin-top: 0px;
+}
+.maincontentstep2-leftblock-completedprojects__p {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 26.73px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.step2-subtitle {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-top: 0px;
+    margin-bottom: 9px;
+}
+.step2subtitle-p {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 190px 218px;
+    grid-template-rows: 107px 107px;
+}
+.vectors-dots {
+    display: flex;
+    width: 156.64px;
+    height: 13.28px;
+    position: absolute;
+    bottom: 0px;
+}
+.arrowleft {
+    margin-right: -6.59px;
+}
+.vectorleft {
+    position: relative;
+    top: -6.5px;
+    margin-right: 29.5px;
+}
+.dotbold {
+    margin-right: 17.54px;
+}
+.dotcenter {
+    margin-right: 17.54px;
+}
+.dotright {
+    margin-right: 29.5px;
+}
+.vectorright {
+    position: relative;
+    top: -6.5px;
+    margin-right: -6.59px;
+}
+.maincontentstep2-leftblock {
+    margin-right: 50px;
+    width: 442px;
+}
+.rightblock-step2 {
+    width: 679px;
+    height: 482px;
+}
+.maincontentstep2 {
+    display: flex;
+    margin-top: 36.68px;
 }
