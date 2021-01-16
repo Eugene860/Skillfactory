@@ -7,16 +7,19 @@ body {
 }
 .header {
     background-color: #131313;
-    }
-.header-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     max-width: 1440px;
     height: 83px;
+    margin: 0;
+    padding: 0;
+}
+.header-container {
+    display: flex;
+    width: 1234px;
+    height: 83px;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 0 auto; 
-    padding-left: 92px;
-    padding-right: 90px;
+    padding: 0 10px;
     align-items: center;
     font-family: "Nunito Sans";
     font-style: normal;
@@ -77,12 +80,16 @@ body {
 .mainstep1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/image43.jpg);
     background-size: auto contain;
-}
-.main-container {
     max-width: 1440px;
     height: 707px;
-    margin: 0px auto;
-    padding-left: 134px;
+    margin: 0;
+    padding: 0;
+}
+.main-container {
+    max-width: 1191px;
+    height: 707px;
+    margin: 0 auto;
+    padding-left: 10px;
     padding-top: 194px;
     padding-bottom: 0px;
     position: relative;
@@ -135,20 +142,28 @@ h1 {
     max-width: 1438px;
     height: 1074px;
     background-color: #131313;
-    padding-left: 134.55px;
-    padding-right: 134.55px;
     padding-top: 107px;
-
+}
+.step2-wrapper {
+    width: 1191px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .step2__nav {
     display: flex;
+    margin-left: auto;
+    width: 679px;
 }
 .step2__menu {
     display: flex;
-    padding-left: 458px;
+    padding: 0;
 }
 .s2m__item {
     list-style: none;
+    font-family: "Yeseva One";
+    font-style: normal;
+    line-height: 19px;    
     font-size: 14px;
 }
 .s2m__item + .s2m__item {
@@ -161,17 +176,19 @@ h1 {
     text-transform: uppercase;
     text-decoration: none;
 }
-#border {
-    position: relative;
+.s2m__item:first-of-type {
+    border-bottom: 1px solid #E3B873;
 }
-#border::after {
-    content: '';
-    background-image: url(../Images/Rectangle6.png);
-    position: absolute;
+.maincontentstep2 {
+    display: flex;
+    margin-top: 36.68px;
+    margin-bottom: 92px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .maincontentstep2-leftblock {
-    position: relative;
-
+    width: 442px;
+    height: 482px;
 }
 .maincontentstep2-leftblock-completedprojects {
     margin-top: 0px;
@@ -179,6 +196,9 @@ h1 {
 }
 .maincontentstep2-leftblock-completedprojects__title {
     text-transform: uppercase;
+    font-family: "Yeseva One";
+    font-style: normal;
+    line-height: 37px;    
     font-size: 27px;
     color: #E3B873;
     margin-bottom: 34px;
@@ -186,13 +206,17 @@ h1 {
 }
 .maincontentstep2-leftblock-completedprojects__p {
     color: #FFFFFF;
+    font-family: "Nunito Sans";
+    font-style: normal;
     font-size: 14px;
-    line-height: 26.73px;
+    line-height: 27px;
     margin-top: 0px;
     margin-bottom: 0px;
 
 }
 .step2-subtitle {
+    font-family: "Yeseva One";
+    font-style: normal;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
@@ -201,6 +225,8 @@ h1 {
     margin-bottom: 9px;
 }
 .step2subtitle-p {
+    font-family: "Nunito Sans";
+    font-style: normal;
     font-size: 13px;
     line-height: 21px;
     color: #FFFFFF;
@@ -243,24 +269,42 @@ h1 {
 .maincontentstep2-leftblock {
     margin-right: 50px;
     width: 442px;
+    position: relative;
 }
 .rightblock-step2 {
     width: 679px;
     height: 482px;
 }
-.maincontentstep2 {
-    display: flex;
-    margin-top: 36.68px;
-}
 .onlinecontrol {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 196px;
     height: 67px;
     margin-left: auto;
     margin-right: auto;
 }
 #online {
+    font-family: "Yeseva One";
+    font-style: normal;
+    line-height: 28px;
     text-transform: uppercase;
-    color:#FFFFFF;
     text-align: center;
+    color:#FFFFFF;
+    margin: 0px 0px 13px 0px;
+    font-size: 20px;
+}
+#control {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+#control::before {
+    content: '';
+    position: absolute;
+    left: 9px;
+    display: block;
+    background-image: url(../Images/Rectangle67.png);
+
 }
