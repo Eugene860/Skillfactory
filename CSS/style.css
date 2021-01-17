@@ -86,7 +86,7 @@ body {
     padding: 0;
 }
 .main-container {
-    max-width: 1191px;
+    width: 1191px;
     height: 707px;
     margin: 0 auto;
     padding-left: 10px;
@@ -139,10 +139,11 @@ h1 {
     border: 1px solid #FFFFFF;
 }
 .step2 {
-    max-width: 1438px;
+    max-width: 1440px;
     height: 1074px;
     background-color: #131313;
     padding-top: 107px;
+    position: relative;
 }
 .step2-wrapper {
     width: 1191px;
@@ -294,17 +295,39 @@ h1 {
     margin: 0px 0px 13px 0px;
     font-size: 20px;
 }
-#control {
+#photocontrol {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
 }
-#control::before {
-    content: '';
+#photocontrol::before {
+    content: url(../Images/Rectangle67.png);
     position: absolute;
-    left: 9px;
-    display: block;
-    background-image: url(../Images/Rectangle67.png);
-
+    right:calc(150% - 10px);
+}
+#photocontrol::after {
+    content: url(../Images/Rectangle67.png);
+    position: absolute;
+    left:calc(150% - 10px);
+}
+.step3 {
+    max-width: 1440px;
+    height: 434px;
+    background-color: inherit;
+}
+.videocontainer {
+    width: 837px;
+    height: 434px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+}
+.opacity {
+    position: absolute;
+    width: 817px;
+    height: 434px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+    top: 0;
 }
