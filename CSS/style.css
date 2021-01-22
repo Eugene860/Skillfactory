@@ -399,6 +399,7 @@ h1 {
 .form-level1 {
     display: flex;
     align-items: flex-end;
+    margin-bottom: 37px;
 }
 #name {
     width: 231px;
@@ -469,10 +470,47 @@ h1 {
     line-height: 27px;
     text-align: center;
 }
-.form-label {
-    font-family: 'Nunito Sans';
-    font-style: normal;
+.form-wrapper-checkbox {
+    position: relative;
+    width: 259px;
+    height: 17px;
+    margin: 0 auto;
+}
+.checkbox-input {
+    appearance: none;
+    position: absolute;
+}
+.form-wrapper-checkbox__label {
     font-size: 14px;
     line-height: 23px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
     color: #181818;
+}
+.form-wrapper-checkbox__label::before {
+    content: '';
+    display: block;
+    width: 18px;
+    height: 18px;
+    background-color: #E3B873;
+    position: absolute;
+    top: 0px;
+    left: -27px;
+    z-index: 1;
+}
+.form-wrapper-checkbox__label::after {
+    content: '';
+    display: block;
+    position: absolute;
+    color: black;
+    background: url("../Images/Done.png");
+    width: 8.31px;
+    height: 5.71px;
+    top: 5px;
+    left: -22px;
+    z-index: 2;
+    opacity: 0;
+}
+.checkbox-input:checked + .form-wrapper-checkbox__label::after {
+    opacity: 1;
 }
