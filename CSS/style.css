@@ -1200,6 +1200,9 @@ h2 {
         background-color: #181818;
     }
     @media screen and (max-width: 1300px) {
+         .header {
+             height: 57px;
+         }
          .header-wrapper {
             max-width: 1300px;
             height: 57px;
@@ -1218,6 +1221,9 @@ h2 {
         .header-button {
             display: none;
         }
+        .mainstep1 {
+            height: 476px;
+        }
         .mainstep1-wrapper {
             max-width: 1300px;
             height: 476px;
@@ -1232,15 +1238,17 @@ h2 {
             justify-content: center;
             margin: 0 auto;
         }
-        .title {
+        h1 {
             width: 339px;
             height: 60px;
-            margin-top: 85px;
+            margin-top: 25px;
             margin-bottom: 16px;
             font-size: 23px;
             line-height: 30px;
-
         }
+.title {
+    margin: 0;
+}
         .content {
             width: 339px;
             height: 94px;
