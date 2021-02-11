@@ -1489,7 +1489,7 @@ h1 {
     font-style: normal;
     font-size: 13px;
     line-height: 21px;
-    color: rgba(54, 54, 54, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     position: absolute;
     top: -10px;
     text-transform: unset;
@@ -1510,7 +1510,7 @@ h1 {
     font-style: normal;
     font-size: 13px;
     line-height: 21px;
-    color: rgba(54, 54, 54, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     position: absolute;
     top: -10px;
     text-transform: unset;
@@ -2067,7 +2067,7 @@ h1 {
     font-style: normal;
     font-size: 13px;
     line-height: 21px;
-    color: rgba(54, 54, 54, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     position: absolute;
     top: -10px;
     text-transform: unset;
@@ -2100,7 +2100,7 @@ h1 {
     font-style: normal;
     font-size: 13px;
     line-height: 21px;
-    color: rgba(54, 54, 54, 0.5);
+    color: rgba(255, 255, 255, 0.5);
     position: absolute;
     top: -10px;
     text-transform: unset;
@@ -2297,7 +2297,7 @@ h1 {
     height: 44px;
 }
 .step12 {
-    height: 672px;
+    height: 482px;
     background-color: black;
     background-image: none;
     margin-top: 0px;
