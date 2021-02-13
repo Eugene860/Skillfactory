@@ -1201,12 +1201,12 @@ h2 {
     background-color: #181818;
 }
 
-@media screen and (max-width: 1300px) and (min-width: 400px) {
+@media screen and (max-width: 767px) and (min-width: 400px) {
 .header {
     height: 57px;
 }
 .header-wrapper {
-    max-width: 1300px;
+    max-width: 767px;
     height: 57px;
     margin: 0 auto;
     padding: 0; 
@@ -1237,7 +1237,7 @@ h2 {
     height: 476px;
 }
 .mainstep1-wrapper {
-    max-width: 1300px;
+    max-width: 767px;
     height: 476px;
     margin: 0 auto;
 }
@@ -1286,7 +1286,7 @@ h1 {
     margin-left: 0px;
 }
 .step2-wrapper {
-    max-width: 1300px;
+    max-width: 767px;
     height: 841px;
     margin-bottom: 0;
 }
@@ -1378,7 +1378,7 @@ h1 {
     background-color: #131313;
 }
 .step3-wrapper {
-    max-width: 1300px;
+    max-width: 767px;
     height: 207px;
 }
 .videocontainer {
@@ -1429,7 +1429,7 @@ h1 {
     height: 505px;
 }
 .step4-wrapper {
-    max-width: 1300px;
+    max-width: 767px;
     height: 428px;
     display: flex;
     flex-direction: column;
@@ -1534,7 +1534,7 @@ h1 {
     color: #FFFFFF;
 }
 .step5-types {
-    max-width: 1300px;
+    max-width: 767px;
     height: 1940px;
 }
 .step5-types-wrapper {
@@ -1610,7 +1610,7 @@ h1 {
     position: relative;
 }
 .step5-mobile-wrapper {
-    max-width: 1300px;
+    max-width: 767px;
     height: 242px;
     z-index: 3;
     position: relative;
@@ -1645,7 +1645,7 @@ h1 {
     background-color: black;
 }
 .step11-wrapper {
-    max-width: 1300px;
+    max-width: 767px;
     height: 670px;
     margin-top: -121px;
 }
@@ -1721,7 +1721,7 @@ h1 {
     margin-top: 0px;
 }
 .step12-wrapper {
-    max-width: 1300px;
+    max-width: 767px;
     height: 525px;
     margin: 0 auto;
     position: relative;
@@ -2351,5 +2351,217 @@ h1 {
 }
 .footer {
     display: none;
+}
+}*/
+@media screen and (max-width: 1300px) and (min-width: 768px) {
+.header {
+    height: 60px;
+}
+.header-wrapper {
+    max-width: 1300px;
+    height: 60px;
+}
+.header-wrapper-container {
+    width: 748px;
+    height: 60px;
+    font-size: 9px;
+    line-height: 13px;
+}
+.header__menu {
+    margin-right: 0px;
+}
+.header__logo {
+    width: 160px;
+    font-size: 9px;
+}
+.hm__item {
+    margin-right: 12px;
+}
+.mainstep1 {
+    height: 650px;
+}
+.mainstep1-wrapper {
+    max-width: 1300px;
+    height: 650px;
+}  
+.mainstep1-wrapper-container {
+    width: 768px;
+    height: 456px;
+}
+.step2-wrapper {
+    max-width: 1300px;
+    height: 1569px;
+    margin-bottom: -217px;
+}
+.step2-wrapper-container {
+    width: 748px;
+    height: 741px;
+    margin: 60px auto 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.step2__nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: 748px;
+}
+.step2__menu {
+    width: 748px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.step2-wrapper-container {
+    width: 748px;
+    height: 741px;
+    margin: 60px auto 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.maincontentstep2 {
+    display: flex;
+    flex-direction: column;
+    width: 748px;
+    margin-top: 37px;
+    margin-bottom: 92px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.maincontentstep2-leftblock {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 748px;
+    position: relative;
+}
+.maincontentstep2-leftblock-completedprojects {
+    margin-top: 0px;
+    margin-bottom: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.maincontentstep2-leftblock-completedprojects__title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.rightblock-step2 {
+    width: 679px;
+    height: 482px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.step3 {
+    height: 388px;
+}
+.step3-wrapper {
+    max-width: 1300px;
+    height: 388px;
+}
+.videocontainer {
+    width: 768px;
+    height: 388px;
+}
+.video {
+    width: 748px;
+    height: 388px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.video video {
+    width: 748px;
+    height: 388px;
+}
+.opacity {
+    width: 748px;
+    height: 388px;
+    z-index: 1;
+}
+.elips {
+    width: 748px;
+    height: 388px;
+}
+.step4-wrapper {
+    max-width: 1300px;
+    height: 490px;
+}
+.step4-wrapper-container {
+    width: 768px;
+    height: 230px;
+    margin: 0 auto 93px;
+    padding: 0 10px;
+}
+.form-wrapper {
+    width: 748px;
+    height: 51px;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+}
+.step5-types {
+    max-width: 1300px;
+    height: 2050px;
+}
+.step5-types-wrapper {
+    width: 768px;
+    height: 2050px;
+}
+.step5-types-wrapper2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.step5-types-wrapper2-image + .step5-types-wrapper2-image {
+    margin-top: 45px;
+}
+.step6-wrapper {
+    max-width: 1300px;
+    height: 598px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.step6-wrapper-right {
+    margin-left: 0;
+}
+.step9 {
+    max-width: 1300px;
+}
+.step9-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 768px;
+    height: 1295px;
+    margin: 0 auto 119px;
+    padding: 0 10px;
+}
+.step9-section-into + .step9-section-into {
+    margin-top: 45px;
+    margin-left: 0;
+}
+.step11-wrapper {
+    max-width: 1300px;
+}
+.step11-wrapper-container {
+    width: 768px;
+}
+.step12 {
+    max-width: 1300px;
+    height: 844px;
+}
+.step12-wrapper-container {
+    width: 768px;
+}
+.step12-wrapper-container-map {
+    width: 768px;
+    height: 378px;
+}
+.step12-wrapper-container-map img {
+    width: 748px;
+    height: 376px;
 }
 }
