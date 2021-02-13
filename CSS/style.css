@@ -84,7 +84,7 @@ body {
     height: 37px;
 }
 .mainstep1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/image43.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../Images/image43.svg);
     background-size: auto contain;
     height: 707px;
 }
@@ -981,7 +981,7 @@ h2 {
     content: '';
     width: 76px;
     height: 76px;
-    background-image: url(../Images/Fedosova.jpg);
+    background-image: url(../Images/Fedosova.svg);
     border-radius: 50%;
     position: absolute;
     top: -17px;
@@ -1003,7 +1003,7 @@ h2 {
     content: '';
     width: 76px;
     height: 76px;
-    background-image: url(../Images/Afanasyev.jpg);
+    background-image: url(../Images/Afanasyev.svg);
     border-radius: 50%;
     position: absolute;
     top: -17px;
@@ -1013,7 +1013,7 @@ h2 {
     content: '';
     width: 76px;
     height: 76px;
-    background-image: url(../Images/Kiriev.jpg);
+    background-image: url(../Images/Kiriev.svg);
     border-radius: 50%;
     position: absolute;
     top: -17px;
