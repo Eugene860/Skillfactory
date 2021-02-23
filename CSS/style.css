@@ -6,6 +6,9 @@ body {
     margin: 0;
     font-family: "Nunito Sans";
 }
+h3, h4, h5 {
+    font-weight: normal;
+}
 .header {
     background-color: #131313;
     height: 83px;
@@ -607,6 +610,9 @@ h2 {
     font-style: normal;
     font-size: 18px;
     line-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #step5-mobiletext {
     display: none;
@@ -859,7 +865,6 @@ h2 {
     margin: 0 auto;
 }
 .step7-wrapper-container {
-    width: 1375px;
     height: 72px;
     margin: 0 auto 71px;
     padding: 0 10px;
@@ -2131,7 +2136,7 @@ h1 {
     width: 198px;
     height: 40px;
 }
-.step5-types-wrapper2-image-layer2-container__button {
+.step5-types-wrapper2-image-layer2-container__div {
     width: 198px;
     height: 40px;
     font-size: 15px;
@@ -2185,9 +2190,6 @@ h1 {
     top: -129px;
     right: 0;
 }
-.step6, .step7, .step8, .step9 {
-    display: none;
-} 
 .step6, .step7, .step8, .step9, .step10 {
     display: none;
 } 
